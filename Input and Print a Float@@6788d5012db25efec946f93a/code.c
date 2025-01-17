@@ -2,9 +2,9 @@
 
 int main() {
     float a;
-    printf("Enter a number: ");
+    printf("You entered: ");
     scanf("%f", &a);
-    printf("You entered: ", a);
+    printf(a);
     return 0;
 }
 
