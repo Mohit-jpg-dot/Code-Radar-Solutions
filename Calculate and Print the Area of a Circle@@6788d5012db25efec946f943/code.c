@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
     int a;
+    float c;
     printf("");
     scanf("%d",&a);
     c = 3.14*a*a;
