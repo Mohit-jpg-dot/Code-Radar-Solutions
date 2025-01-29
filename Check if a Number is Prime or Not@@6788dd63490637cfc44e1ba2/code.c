@@ -3,7 +3,7 @@
 int main() {
     int a;
     scanf("%d",&a);
-    for a in range(int x){
+    for x in range(int a){
         if (a%x==1){
             printf(" prime",a);
         }
