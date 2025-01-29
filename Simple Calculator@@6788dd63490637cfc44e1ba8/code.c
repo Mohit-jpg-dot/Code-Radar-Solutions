@@ -16,7 +16,7 @@ int main() {
         printf("%.0f",a*b);
     }
     else{
-        printf("");
+        return 1;
     }
     return 0;
 }
