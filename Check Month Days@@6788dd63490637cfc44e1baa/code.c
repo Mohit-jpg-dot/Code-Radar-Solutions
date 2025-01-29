@@ -7,4 +7,5 @@ int main(){
         printf("Invalid month\n");
 }
     return 0;
+    }
 }
