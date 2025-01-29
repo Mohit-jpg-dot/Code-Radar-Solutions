@@ -6,5 +6,5 @@ int main(){
      else {
         printf("Invalid month\n");
 }
-
+    return 0;
 }
