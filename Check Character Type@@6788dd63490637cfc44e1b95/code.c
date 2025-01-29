@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
     char a;
-    char c[100];
-    c = ["a","e","i","o","u"];
+    char c[100] = {'a','e','i','o','u'};
     scanf("%c",&a);
     if(a==c){
         printf("Vowel");
