@@ -6,6 +6,6 @@ int main() {
     for(int i=1;i<=a;i++){
         c++;
     }
-    printf("%d ",i);
+    printf("%d ",c);
     return 0;
 }
