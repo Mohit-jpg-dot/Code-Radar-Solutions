@@ -1,12 +1,8 @@
 #include<stdio.h>
 int main(){
-    int a,d;
-    d=a+1;
+    int a;
     scanf("%d",&a);
-    if(a==0){
-        printf("%d",a);
+    printf("%d",a~);
+    return 0;
     }
-    else{
-        printf("%d",d);
-    }
-}
+
