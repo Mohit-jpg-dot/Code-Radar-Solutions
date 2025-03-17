@@ -1,12 +1,14 @@
-#include<stdio.h>
-int main(){
-    int a;
-    scanf("%d",&a);
-    if(1<<a){
+#include <stdio.h>
+
+int main() {
+    int n, a;
+    scanf("%d %d", &n, &a);
+
+    if (n & (1 << a)) {
         printf("Set");
-    }
-    else{
+    } else {
         printf("Not Set");
     }
 
+    return 0;
 }
