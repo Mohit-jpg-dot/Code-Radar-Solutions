@@ -3,7 +3,7 @@ int main(){
     int a;
     scanf("%d",&a);
     int b[a];
-    int n = sizeof(b) / sizeof(b[0]);
+    int n = a
     for(int i=0;i<a;i++){
         scanf("%d",&b[i]);
     }
@@ -16,7 +16,7 @@ int main(){
     int min = b[0];
     for(int i=1;i<n;i++){
         if(b[i]<min){
-            max = b[i];
+            min = b[i];
         }
     }
     printf("%d %d",min,max);
