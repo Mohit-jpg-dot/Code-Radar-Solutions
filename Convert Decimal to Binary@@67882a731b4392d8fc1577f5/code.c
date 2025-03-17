@@ -1,15 +1,24 @@
 #include <stdio.h>
-#include <math.h>
-int binaryToDecimal(int n,int power) {
-    if (n==0)  
-        return 0;
-    int a=n%10;  
-    return a*pow(2,power)+binaryToDecimal(n/10,power+1);
+void decimalToBinary(int n) {
+    if (n == 0) {
+        printf("0");
+        return;
+    }
+    int binary[32], i = 0;
+    while (n > 0) {
+        binary[i] = n % 2;
+        n = n / 2;
+        i++;
+    }
+    for (int j = i - 1; j >= 0; j--) {
+        printf("%d", binary[j]);
+    }
 }
+
 int main() {
     int n;
-    printf("Enter a binary number: ");
     scanf("%d", &n);
-    printf("Decimal equivalent: %d\n",binaryToDecimal(n,0));
+    printf("Binary: ");
+    decimalToBinary(n);
     return 0;
 }
