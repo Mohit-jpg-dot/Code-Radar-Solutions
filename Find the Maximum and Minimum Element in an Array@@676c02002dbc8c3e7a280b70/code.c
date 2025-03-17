@@ -10,13 +10,13 @@ int main(){
     int max = b[0];
     for(int i=1;i<n;i++){
         if(b[i]>max){
-            max = arr[i];
+            max = b[i];
         }
     }
     int min = b[0];
     for(int i=1;i<n;i++){
         if(b[i]<min){
-            max = arr[i];
+            max = b[i];
         }
     }
     printf("%d %d",min.max);
