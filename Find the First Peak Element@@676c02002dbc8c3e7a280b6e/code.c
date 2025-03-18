@@ -14,7 +14,7 @@ int main() {
             return 0;  
         }
     }
-    if (int arr[i]==arr[i]){
+    if (arr[n]==arr[i]){
         printf("-1");
     }
     return 0;
