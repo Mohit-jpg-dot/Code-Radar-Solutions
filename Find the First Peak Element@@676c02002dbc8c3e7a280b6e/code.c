@@ -14,10 +14,17 @@ int main() {
             return 0;  
         }
     }
-    for(int i = 0;i<a;i++){
-        if(a==max){
-            return -1;
+    int allSame = 1; 
+    for (int i = 1; i < a; i++) {
+        if (arr[i] != arr[0]) {
+            allSame = 0;
+            break;
         }
+    }
+
+    if (allSame) {
+        printf("-1\n");
+        return 0;
     }
     
     return 0;
