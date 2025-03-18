@@ -16,16 +16,14 @@ int main() {
     }
     int allSame = 1; 
     for (int i = 1; i < a; i++) {
-        if (arr[i] != arr[0]) {
+        if (arr[i] != arr[i]) {
             allSame = 0;
             break;
         }
     }
-
     if (allSame) {
         printf("-1\n");
         return 0;
     }
-    
     return 0;
 }
