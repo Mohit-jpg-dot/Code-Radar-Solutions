@@ -12,7 +12,10 @@ int main() {
         if ((i == 0 || arr[i] >= arr[i - 1]) && (i == a - 1 || arr[i] >= arr[i + 1])) { 
             printf("%d\n", arr[i]);
             return 0;  
-        }else{printf("-1");}
+        }
+    }
+    if(arr[n]==arr[n]){
+        printf("-1");
     }
     return 0;
 }
