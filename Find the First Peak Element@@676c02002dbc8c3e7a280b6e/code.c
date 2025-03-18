@@ -14,6 +14,11 @@ int main() {
             return 0;  
         }
     }
+    for(int i = 0;i<a;i++){
+        if(a==max){
+            return -1;
+        }
+    }
     
     return 0;
 }
