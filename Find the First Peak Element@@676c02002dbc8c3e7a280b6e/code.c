@@ -8,11 +8,12 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int max = arr[0];
-    for (int i = 1; i < n; i++) {
-        if ((i == 0 || arr[i] >= arr[i - 1]) && (i == a - 1 || arr[i] >= arr[i + 1])) {
-            max = arr[i];
+    for (int i = 0; i < a; i++) {
+        if ((i == 0 || arr[i] >= arr[i - 1]) && (i == a - 1 || arr[i] >= arr[i + 1])) { 
+            printf("%d\n", arr[i]);
+            return 0;  
         }
-        break;
     }
-    printf("%d\n",max);
+
+    return 0;
 }
