@@ -10,8 +10,8 @@ int main(){
         for(int j = 1;j<i;j++){
             printf("%d",j);
         }
-        for(int j = i;j>=1;j--){
-            printf("%d",j);
+        for(int b = i;b>=1;b--){
+            printf("%d",b);
         }
         printf("\n");
     }
