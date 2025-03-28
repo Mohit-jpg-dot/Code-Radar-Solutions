@@ -9,7 +9,7 @@ int main(){
         for(int k=j;k>=1;k--){
             if(arr[j]==arr[k]){
                 count++;
-                break
+                break;
             }
         }
     }
