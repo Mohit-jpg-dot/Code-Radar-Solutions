@@ -11,6 +11,7 @@ int main(){
                 count++;
             }else{
                 printf("NO");
+                return 0;
             }
         }
     }
