@@ -9,14 +9,15 @@ int main(){
         for(int k=j;k>=1;k--){
             if(arr[j]==arr[k]){
                 count++;
+                break
             }
         }
     }
-    if(count%a==0){
-        printf("YES");
+    if(count!=1){
+        printf("NO");
     }
     else{
-        printf("NO");
+        printf("YES");
     }
     return 0;
 }
