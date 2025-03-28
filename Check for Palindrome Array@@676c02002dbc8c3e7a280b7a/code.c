@@ -9,9 +9,6 @@ int main(){
         for(int k=j;k>=1;k--){
             if(arr[j]==arr[k]){
                 count++;
-            }else{
-                printf("NO");
-                return 0;
             }
         }
     }
