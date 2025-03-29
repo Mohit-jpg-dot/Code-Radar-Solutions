@@ -1,23 +1,15 @@
 #include<stdio.h>
 int main(){
-    int a,count=0;
-    scanf("%d",&a);
-    int arr[a];
-    for(int i = 0;i<a;i++){
-        scanf("%d",&arr[i]);}
-    for(int j = 1;j<a;j++){
-        for(int k=j;k>=1;k--){
-            if(arr[j]==arr[k]){
-                count++;
-                break;
-            }
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0;i<n;i++){
+        if(arr[i]!=arr[n-1-i]){
+            printf("NO\n");
+            return 0;
         }
     }
-    if(count!=1){
-        printf("NO");
-    }
-    else{
-        printf("YES");
-    }
-    return 0;
-}
+    printf("YES\n");
