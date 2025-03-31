@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
     int a,count = 0;
-    printf("enter your number : ");
     scanf("%d",&a);
     int arr[a];
     for(int i = 0;i<a;i++){
