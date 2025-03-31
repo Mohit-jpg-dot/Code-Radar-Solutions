@@ -2,8 +2,8 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i=a;i>=a;i++){
-        for(int j=a;j>1;j++){
+    for(int i=0;i>=a;i++){
+        for(int j=0;j>=a;j++){
             printf("%d",j);
         }
         printf("\n");
