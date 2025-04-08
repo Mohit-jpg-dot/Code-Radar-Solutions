@@ -26,7 +26,7 @@ int main(){
     if(n == 1){
         printf("-1");
     }
-    else if(){
+    else if(arr<0){
         printf("%d",min);
     }
     else{
