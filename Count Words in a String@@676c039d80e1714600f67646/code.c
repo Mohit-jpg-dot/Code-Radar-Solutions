@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char a[];
+    char a[100];
+    int n;
     getchar();
     fgets(a,sizeof(a),stdin);
     n = sizeof(a)/sizeof(a[0]);
