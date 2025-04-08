@@ -1,4 +1,4 @@
-#include<sdtio.h>
+#include<stdio.h>
 int main(){
     int a,count = 0,sum = 0;
     printf("Enter : ");
