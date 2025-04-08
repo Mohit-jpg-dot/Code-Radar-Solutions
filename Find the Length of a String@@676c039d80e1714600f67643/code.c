@@ -5,6 +5,6 @@ int main(){
     getchar();
     fgets(a,100,stdin);
     int n = strlen(a);
-    printf("%d",n+1);
+    printf("%d",n);
     return 0;
 }
