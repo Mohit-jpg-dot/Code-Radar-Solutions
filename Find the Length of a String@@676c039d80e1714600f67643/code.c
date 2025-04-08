@@ -5,8 +5,8 @@ int main(){
     getchar();
     fgets(a,100,stdin);
     int n = strlen(a)+1;
-    if(a == ""){
-        printf("%d",n-2);
+    if(strcmp(a, "\n") == 0){
+        printf("0");
     }
     else{
         printf("%d",n);
