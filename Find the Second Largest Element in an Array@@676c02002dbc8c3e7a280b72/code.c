@@ -10,15 +10,11 @@ int main(){
     for(int i = 0;i<a;i++){
         if(arr[i]>max){
             max = arr[i-1];
-            printf("%d",max);
-        }
-        else if(arr[i] == arr[0]){
-            printf("-1");
-        }
+    }
         else{
             max = -1;
-            printf("%d",max);
         }
     }
+    printf("%d",max);
     return 0;
 }
