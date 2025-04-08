@@ -3,6 +3,6 @@ int main(){
     char s[100],b;
     getchar();
     b = fgets(s,100,stdin);
-    printf("%d",sizeof(b));
+    printf("%p",sizeof(b));
     return 0;
 }
