@@ -9,7 +9,7 @@ int main(){
     int max = 0;
     for(int i = 0;i<a;i++){
         if(arr[i]>max){
-            max = arr[i];
+            max = arr[i-1];
     }
     }
     printf("%d",max);
