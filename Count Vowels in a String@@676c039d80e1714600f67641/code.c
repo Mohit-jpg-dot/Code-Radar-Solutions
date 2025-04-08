@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<string.c>
+#include<string.h>
 int main(){
     char a[100],int b,count = 0;
     b = strlen(a)
