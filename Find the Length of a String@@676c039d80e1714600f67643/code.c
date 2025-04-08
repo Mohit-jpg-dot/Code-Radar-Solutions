@@ -5,7 +5,7 @@ int main(){
     getchar();
     fgets(a,100,stdin);
     int n = strlen(a)+1;
-    if(a == " "){
+    if(a == ""){
         printf("0");
     }
     else{
