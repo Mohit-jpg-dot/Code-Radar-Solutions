@@ -6,7 +6,7 @@ int main(){
     fgets(a,100,stdin);
     int n = strlen(a)+1;
     if(a == ""){
-        printf("0");
+        printf("%d",n-1);
     }
     else{
         printf("%d",n);
