@@ -11,22 +11,20 @@ int main(){
     for(int i = 0;i<a;i++){
         if(arr[i]>max){
             max = arr[i-1];
+    }   else if(max < 0){
+        int min = 0;
+        for(int i = 0;i<a;i++){
+            if(arr[i]<min){
+                min = arr[i+1];
+        }
+    }
     }
         else{
             max = -1;
         }
     }
-    int min = 0;
-    for(int i = 0;i<a;i++){
-        if(arr[i]<min){
-            min = arr[i+1];
-        }
-    }
     if(n == 1){
         printf("-1");
-    }
-    else if(arr<0){
-        printf("%d",min);
     }
     else{
         printf("%d",max);
