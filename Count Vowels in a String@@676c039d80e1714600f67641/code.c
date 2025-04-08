@@ -6,7 +6,7 @@ int main(){
     fgets(a,100,stdin);
     for(int i = 0;a[i]!='\0';i++){
         char ch = tolower(a[i]);
-        if(a=='a' || a=='i' || a=='e' || a=='o' || a=='u'){
+        if(ch=='a' || ch=='i' || ch=='e' || ch=='o' || ch=='u'){
             count++;
     }
     }
