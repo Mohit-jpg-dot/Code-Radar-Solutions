@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char a[100];int b,count = 0;
+    char a[100];
+    int b,count = 0;
     b = strlen(a)
     fgets(a,100,stdin);
     for(int i = 0;i<b;i++){
