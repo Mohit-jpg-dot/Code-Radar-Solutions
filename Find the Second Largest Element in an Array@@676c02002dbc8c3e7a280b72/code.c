@@ -12,10 +12,13 @@ int main(){
         if(arr[i]>max){
             max = arr[i-1];
     }
+        else if(n == 1){
+            printf("-1");
+        }
         else{
             max = -1;
         }
     }
-    printf("%d",n);
+    printf("%d",max);
     return 0;
 }
