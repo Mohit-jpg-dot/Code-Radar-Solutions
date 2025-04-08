@@ -17,7 +17,8 @@ int main(){
             if(arr[i]<min){
                 min = arr[i+1];
         }
-        printf("-20");
+        printf("%d",min);
+        break;
     }
     }
         else{
