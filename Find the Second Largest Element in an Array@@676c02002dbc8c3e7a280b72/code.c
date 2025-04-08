@@ -18,7 +18,7 @@ int main(){
     }
     int min = 0;
     for(int i = 0;i<a;i++){
-        if(arr[i]<0){}
+        if(arr[i]<0){
             if(arr[i]<min){
                 min = arr[i+1];
         }
