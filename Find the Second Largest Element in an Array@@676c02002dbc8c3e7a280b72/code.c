@@ -18,14 +18,15 @@ int main(){
     }
     int min = 0;
     for(int i = 0;i<a;i++){
-        if(arr[i]<min){
-            min = arr[i+1];
+        if(arr[i]<0){}
+            if(arr[i]<min){
+                min = arr[i+1];
         }
     }
     if(n == 1){
         printf("-1");
     }
-    else if(max<0){
+    else if(){
         printf("%d",min);
     }
     else{
