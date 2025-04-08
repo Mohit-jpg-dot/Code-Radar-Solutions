@@ -1,11 +1,9 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
-    char a[] = {};
-    int n;
+    char s[100];
+    int b;
     getchar();
-    fgets(a,sizeof(a),stdin);
-    n = sizeof(a)/sizeof(a[0]);
-    printf("%d",n);
+    b = fgets(s,100,stdin);
+    printf("%d",sizeof(b));
     return 0;
 }
