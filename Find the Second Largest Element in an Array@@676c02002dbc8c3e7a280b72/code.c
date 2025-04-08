@@ -25,7 +25,7 @@ int main(){
     if(n == 1){
         printf("-1");
     }
-    else if(i<0){
+    else if(max<0){
         printf("%d",min);
     }
     else{
