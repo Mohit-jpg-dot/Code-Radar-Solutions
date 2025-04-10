@@ -10,15 +10,15 @@ int main(){
     int max = 0;
     for(int i = 0;i<a;i++){
         if(arr[i]>max){
-            max = arr[i-1];
-    }   else if(max < 0){
-        int min = 0;
-        for(int i = 0;i<a;i++){
-            if(arr[i]<min){
-                min = arr[i+1];
-                printf("%d",min);
-                break;
-        }
+            max = arr[i-1];}
+        if(max < 0){
+            int min = 0;
+            for(int i = 0;i<a;i++){
+                if(arr[i]<min){
+                    min = arr[i+1];
+                    printf("%d",min);
+                    break;
+                }
     }
     }
         else{
@@ -27,10 +27,12 @@ int main(){
     }
     if(n == 1){
         printf("-1");
+        return 0;
+
     }
     else{
         printf("%d",max);
         return 0;
     }
-    return 0;
+
 }
