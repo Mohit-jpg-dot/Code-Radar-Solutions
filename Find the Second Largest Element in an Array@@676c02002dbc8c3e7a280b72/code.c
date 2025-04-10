@@ -25,7 +25,7 @@ int main(){
             n = -1;
         }
     }
-    if(n == 1){
+    if(n == -1){
         printf("-1");
     }
     else{
