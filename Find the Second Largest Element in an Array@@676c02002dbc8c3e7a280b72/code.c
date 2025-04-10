@@ -22,10 +22,10 @@ int main(){
     }
     }
         else{
-            n = -1;
+            max = -1;
         }
     }
-    if(n == -1){
+    if(n == 1){
         printf("-1");
     }
     else{
